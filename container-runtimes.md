@@ -52,17 +52,14 @@ Image pull and management
 Container lifecycle management  
 Snapshot and storage support  
 CRI (Container Runtime Interface) plugin for Kubernetes  
-  
 Role in Container Management  
 containerd focuses only on running containers and does not provide image build tools or advanced CLI features like Docker.  
 Kubernetes Integration  
 Fully supports Kubernetes via CRI  
 Default runtime for most Kubernetes distributions  
-  
 Kubernetes Integration  
 Fully supports Kubernetes via CRI  
 Default runtime for most Kubernetes distributions  
-  
 Cloud Integration  
 AWS: Default runtime for Amazon EKS  
 Azure: Default runtime for AKS  
@@ -72,29 +69,23 @@ Key Features
 Implements Kubernetes Container Runtime Interface (CRI)  
 Minimal and secure  
 Uses OCI-compliant runtimes like runc  
-  
 Role in Container Management  
 CRI-O focuses solely on Kubernetes use cases and does not support non-Kubernetes workloads.  
-  
 Kubernetes Integration  
 Direct CRI support  
 Commonly used in Red Hat OpenShift
-  
 Cloud Integration  
 AWS: Used in OpenShift clusters on AWS  
 Azure: Supported in OpenShift on Azure  
 GCP: Supported in OpenShift on GCP  
 - Podman: Podman is a daemonless container engine developed by Red Hat.  
-  
 Key Features  
 Docker-compatible CLI  
 Runs containers without a central daemon  
 Rootless container support  
-  
 Kubernetes Integration  
 Can generate Kubernetes YAML files  
 Often used in development environments
-  
 Cloud Integration  
 AWS, Azure, GCP: Used on VMs and in OpenShift environments  
 4. Container Runtime Interface: The Container Runtime Interface (CRI) is a Kubernetes API that allows Kubernetes to interact with different container runtimes without changing Kubernetes core code.  
