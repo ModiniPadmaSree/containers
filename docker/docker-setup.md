@@ -1,7 +1,8 @@
-This document explains how to install Docker on cloud virtual machines across AWS EC2, Azure VM, and Google Cloud Compute Engine, followed by building and >  
+This document explains how to install Docker on cloud virtual machines across AWS EC2, Azure VM, and Google Cloud Compute Engine, followed by building and running a Docker container using a sample NGINX web server.  
 Prerequisites:  
 1. An instance in cloud platform(ubuntu)
 2. SSH access to instance  
+  
 Steps:  
 1. Docker installation
 - AWS: sudo apt update  
